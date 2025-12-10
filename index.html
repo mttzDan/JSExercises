@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicios Arrays</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+ 
+  <section id="home" class="vista visible">
+    <h1 class="titulo">🎄Feliz cumple (y navidad) Serch 🎁</h1>
+    <p>Escoge tu regalo:</p>
+
+    <div class="btn-container">
+      <button onclick="abrirEjercicio(1)">Ejercicio 1</button>
+      <button onclick="abrirEjercicio(2)">Ejercicio 2</button>
+      <button onclick="abrirEjercicio(3)">Ejercicio 3</button>
+      <button onclick="abrirEjercicio(4)">Ejercicio 4</button>
+      <button onclick="abrirEjercicio(5)">Ejercicio 5</button>
+      <button onclick="abrirEjercicio(6)">Ejercicio 6</button>
+    </div>
+  </section>
+
+
+  <section id="vista-ejercicio" class="vista">
+    <h2 id="titulo-ej"></h2>
+
+    <button onclick="volver()" class="btn-regresar">⬅ Regresar</button>
+
+
+    <pre id="codigo"></pre>
+  </section>
+
+  <script src="main.js" defer></script>
+  <div id="snow"></div>
+</body>
+</html>
