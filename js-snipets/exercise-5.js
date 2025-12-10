@@ -1,4 +1,4 @@
-//Exercise #5
+//Exercise 5
 
 let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 
